@@ -1,0 +1,73 @@
+/*
+Theme Name: Twenty Twenty-Five Child
+Template: twentytwentyfive
+Version: 1.0
+*/
+:root {
+  --primary: #6c63ff;
+  --primary-dark: #5148d8;
+  --background: #f7f7fb;
+  --surface: #ffffff;
+  --text: #222222;
+  --muted: #666666;
+  --border: #e6e6ef;
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --font-main: "Segoe UI", Arial, sans-serif;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-main);
+  line-height: 1.6;
+}
+h1, h2, h3, h4 {
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+p {
+  color: var(--text);
+}
+a {
+  color: var(--primary-dark);
+}
+.wp-block-button__link {
+  background-color: var(--primary);
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 12px 22px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.wp-block-button__link:hover {
+  background-color: var(--primary-dark);
+}
+.wp-block-columns {
+  gap: 28px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.wp-block-column {
+  background: var(--surface);
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.site-header,
+header {
+  border-bottom: 1px solid var(--border);
+}
+img {
+  border-radius: 10px;
+}
+.wp-block-post,
+.product,
+.products li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
